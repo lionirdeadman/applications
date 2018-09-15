@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.growtopia.Game.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>LicenseRef-proprietary</project_license>
+    <name>Growtopia</name>
+    <summary>Punch. Build. Grow.</summary>
+    <description>
+        <p>Growtopia is a multiplayer sandbox platformer with crafting. There are no goals, just an infinite number of worlds where you create whatever you want with all your friends. Most things in Growtopia grow on trees - Dirt Trees, Lava Trees and of course Jetpack Trees.</p>
+        <p>Please install the game to C:/Program Files (x86)/Growtopia/ otherwise it won't launch since it will think the application is not installed. PS: First launch will be slow since we need to download the executable.</p>
+    </description>
+
+    <screenshots>
+        <screenshot type="default">
+            <image width="1280" height="720">https://lh3.googleusercontent.com/DrW24sTEFezI2WK02eOX1nSE9kWfQ3GKozWSb5mbseFi0dkoqIgc_yDFA4lnm9UbWB4=w1280-h886</image>
+        </screenshot>
+        <screenshot type="default">
+            <image width="1280" height="720">https://lh3.googleusercontent.com/gV0-J5Jp3sxC8-iUh2lhO_iNteLM5mc1pZijZJF-E6h-0yrc6Em4JQaFjcTeY9D3Cyc=w1280-h886</image>
+        </screenshot>
+        <screenshot>
+            <image width="1280" height="720">https://lh3.googleusercontent.com/wZ2wtcSwWvVauiGfHuIQWpKgRgCV6UN5YMFHeHBTmWfUnKgEx0Lh68IxZhmowUHudXU=w1280-h886</image>
+        </screenshot>
+        <screenshot>
+            <image width="1280" height="720">https://lh3.googleusercontent.com/O5J41V8FCpluaoQGhvsKVLO90tDeYvVUqC9rz0LYCzQjdQbcCTAatYQyY8-HXjvoNUQ=w1280-h886</image>
+        </screenshot>
+        <screenshot>
+            <image width="1280" height="720">https://lh3.googleusercontent.com/h8neCwhLG_eMcFLu6qArOj7C-s6BSsbZkYaawF5z8Cy5UBojNRXwKww9JU8ewAWzU5g=w1280-h886</image>
+        </screenshot>
+    </screenshots>
+
+    <project_group>winepak</project_group>
+    <developer_name>Ubisoft</developer_name>
+
+    <url type="homepage">https://www.growtopiagame.com/</url>
+    <url type="help">https://growtopiagame.com/faq</url>
+    <url type="bugtracker">https://growtopiagame.com/faq/detail/i-found-a-bug</url>
+
+    <categories>
+        <category>Game</category>
+        <category>Sandbox</category>
+    </categories>
+
+    <requires>
+        <id version="0.11.4" compare="ge">org.freedesktop.Flatpak</id>
+        <memory>1024</memory>
+    </requires>
+
+    <recommends>
+        <id version="0.11.7" compare="ge">org.freedesktop.Flatpak</id>
+        <memory>2048</memory>
+    </recommends>
+
+    <kudos>
+        <kudo>HiDpiIcon</kudo>
+    </kudos>
+
+    <content_rating type="oars-1.1">
+        <content_attribute id="violence-cartoon">moderate</content_attribute>
+        <content_attribute id="violence-fantasy">moderate</content_attribute>
+        <content_attribute id="violence-realistic">none</content_attribute>
+        <content_attribute id="violence-bloodshed">none</content_attribute>
+        <content_attribute id="violence-sexual">none</content_attribute>
+        <content_attribute id="violence-desecration">none</content_attribute>
+        <content_attribute id="violence-slavery">none</content_attribute>
+        <content_attribute id="violence-worship">none</content_attribute>
+        <content_attribute id="drugs-alcohol">none</content_attribute>
+        <content_attribute id="drugs-narcotics">none</content_attribute>
+        <content_attribute id="drugs-tobacco">mild</content_attribute>
+        <content_attribute id="sex-nudity">none</content_attribute>
+        <content_attribute id="sex-themes">none</content_attribute>
+        <content_attribute id="sex-homosexuality">none</content_attribute>
+        <content_attribute id="sex-prostitution">none</content_attribute>
+        <content_attribute id="sex-adultery">none</content_attribute>
+        <content_attribute id="sex-appearance">none</content_attribute>
+        <content_attribute id="language-profanity">none</content_attribute>
+        <content_attribute id="language-humor">none</content_attribute>
+        <content_attribute id="language-discrimination">none</content_attribute>
+        <content_attribute id="social-chat">intense</content_attribute>
+        <content_attribute id="social-info">none</content_attribute>
+        <content_attribute id="social-audio">none</content_attribute>
+        <content_attribute id="social-location">none</content_attribute>
+        <content_attribute id="social-contacts">intense</content_attribute>
+        <content_attribute id="money-purchasing">intense</content_attribute>
+        <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+
+    <releases>
+        <release date="2018-09-15" version="2018-09-15">
+            <description>
+                <ul>
+                    <li>Initial release of Growtopia via winepak.</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+</component>

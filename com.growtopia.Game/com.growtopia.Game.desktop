@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Growtopia
+Comment=Punch. Build. Grow.
+Exec=growtopia %U
+Icon=com.growtopia.Game
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=application/x-ms-dos-executable;application/x-msi;application/x-ms-shortcut;
+Categories=Game;Sports;
+Keywords=Growtopia;Grow;Sandbox
